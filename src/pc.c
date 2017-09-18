@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 #define VERSION "0.1.0"
+#define SYNTAX "<program> ::= R|λ|<program><program>|(<program>)"
 
 void printVersion();
 
